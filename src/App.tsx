@@ -9,8 +9,8 @@ import {
   DEFAULT_CHARACTER_IMAGE,
   DEFAULT_BG_IMAGE,
   CUSTOM_CHARACTER_IMAGE,
-} from './config/character.ts';
-import CustomCharacterModal from './components/CustomCharacterModal.tsx';
+} from './config/character';
+import CustomCharacterModal from './components/CustomCharacterModal';
 
 export default function App() {
   const [drawerOpen, setDrawerOpen] = useState(false);

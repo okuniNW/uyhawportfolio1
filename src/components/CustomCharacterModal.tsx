@@ -5,7 +5,7 @@
 
 import React, { useState, useRef } from 'react';
 import { X, Upload, RotateCcw, Check, Image as ImageIcon } from 'lucide-react';
-import { DEFAULT_CHARACTER_IMAGE } from '../config/character.ts';
+import { DEFAULT_CHARACTER_IMAGE } from '../config/character';
 
 interface CustomCharacterModalProps {
   isOpen: boolean;
