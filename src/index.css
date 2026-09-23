@@ -89,6 +89,17 @@ body {
   background-size: 160px 160px;
 }
 
+@media (pointer: fine) {
+  body.cursor-none,
+  body.cursor-none a,
+  body.cursor-none button,
+  body.cursor-none input,
+  body.cursor-none textarea,
+  body.cursor-none [role="button"] {
+    cursor: none !important;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .anim-fade-in,
   .anim-rise-in,

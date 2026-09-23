@@ -205,7 +205,7 @@ export default function CustomCharacterModal({
               />
               {/* Background preview label representing marquee behind portrait */}
               <div className="absolute text-center select-none text-cream/15 text-2xl font-bold tracking-tight">
-                Marcus &mdash; Bennet
+                Marcus / Bennet
               </div>
               <img
                 src={previewUrl}
@@ -218,7 +218,7 @@ export default function CustomCharacterModal({
           {/* Important Editorial Note */}
           <p className="text-[11px] leading-relaxed text-cream/50 border-l border-cream/30 pl-3">
             <strong>Tips:</strong> Agar efek visual tetap maksimal, pastikan gambar yang diunggah
-            sudah di-cutout (latar belakang transparan) sehingga teks nama &ldquo;Marcus &mdash; Bennet&rdquo;
+            sudah di-cutout (latar belakang transparan) sehingga teks nama &ldquo;Marcus / Bennet&rdquo;
             di belakangnya tetap terlihat menembus siluet karakter. Anda juga bisa mengatur file langsung di{' '}
             <code className="text-cream/80 bg-white/10 px-1 py-0.5">src/config/character.ts</code>.
           </p>
